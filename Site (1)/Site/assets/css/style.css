@@ -1,0 +1,164 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #F5DF19;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+}
+
+.menu {
+    margin-right: 20px;
+}
+
+.options {
+    color: black;
+    text-decoration: none;
+}
+
+/* Conteúdo Principal */
+#screen {
+    padding: 20px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+.softwares {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.softImg {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.miro, .figma {
+    margin-top: 30px;
+}
+
+.techImg {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.miroButton, .figmaButton {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #ffd030;
+    border-radius: 12px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.miroLogo, .figmaLogo {
+    width: 30px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.memberPosition {
+    margin-bottom: 20px;
+}
+
+.memberImg {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.member {
+    list-style: none;
+}
+
+footer {
+    background-color: #F5DF19;
+    padding: 20px;
+}
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 5px 10px;
+    }
+
+    .logo img {
+        width: 80px;
+    }
+
+    .menu {
+        margin-right: 10px;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    .softImg {
+        width: 50px;
+        margin-right: 5px;
+    }
+
+    .miroButton, .figmaButton {
+        padding: 8px 15px;
+    }
+
+    .memberImg {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto; /* Alinha as imagens ao centro */
+    }
+}
+
+/* Estilos para tablets e dispositivos maiores */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    header {
+        padding: 10px 20px;
+    }
+
+    .logo img {
+        width: 100px;
+        justify-content: center; /* Centraliza os elementos horizontalmente */
+    align-items: center;
+    }
+
+    .menu {
+        margin-right: 15px;
+    }
+
+    .softImg {
+        width: 70px;
+        margin-right: 10px;
+    }
+
+    .miroButton, .figmaButton {
+        padding: 10px 20px;
+    }
+
+    .memberImg {
+        width: 120px;
+        height: 120px;
+        margin: 0 auto; /* Alinha as imagens ao centro */
+    }
+}
